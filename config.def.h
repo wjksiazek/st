@@ -194,11 +194,11 @@ ResourcePref resources[] = {
  * Internal mouse shortcuts.
  * Beware that overloading Button1 will disable the selection.
  */
-static MouseShortcut mshortcuts[] = {};
-//	/* button               mask            string */
-//	{ Button4,              XK_NO_MOD,      "\031" },
-//	{ Button5,              XK_NO_MOD,      "\005" },
-//};
+static MouseShortcut mshortcuts[] = {
+	/* button               mask            string */
+	{ Button4,              XK_NO_MOD,      "\031" },
+	{ Button5,              XK_NO_MOD,      "\005" },
+};
 
 /* Internal keyboard shortcuts. */
 #define MODKEY Mod1Mask
